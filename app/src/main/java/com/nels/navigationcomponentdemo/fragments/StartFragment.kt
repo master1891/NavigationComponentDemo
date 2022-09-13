@@ -7,10 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import com.nels.navigationcomponentdemo.R
 import com.nels.navigationcomponentdemo.databinding.FragmentGameBinding
+import com.nels.navigationcomponentdemo.databinding.FragmentStartBinding
 
 class StartFragment : Fragment() {
 
-    lateinit var _binding:FragmentGameBinding
+    lateinit var _binding:FragmentStartBinding
     private val binding get() = _binding
 
     override fun onCreateView(
@@ -18,7 +19,7 @@ class StartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        _binding = FragmentGameBinding.inflate(layoutInflater,container,false)
+        _binding = FragmentStartBinding.inflate(layoutInflater,container,false)
 
         return _binding.root
     }

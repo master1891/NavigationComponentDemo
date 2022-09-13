@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/na"
+    app:startDestination="@id/welcomeFragment">
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.nels.navigationcomponentdemo.fragments.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.nels.navigationcomponentdemo.fragments.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+    <dialog
+        android:id="@+id/gameModeDialog"
+        android:name="com.nels.navigationcomponentdemo.fragments.GameModeDialog"
+        android:label="GameModeDialog" />
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.nels.navigationcomponentdemo.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+</navigation>
