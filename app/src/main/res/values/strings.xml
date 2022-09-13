@@ -2,4 +2,11 @@
     <string name="app_name">NavigationComponentDemo</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="salir">SALIR</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="modo_de_juego">MODO DE JUEGO</string>
+    <string name="iniciar_sesion">INICIAR SESION</string>
+    <string name="juego_de_navegacion">JUEGO DE NAVEGACION</string>
+    <string name="iniciar">INICIAR</string>
 </resources>
